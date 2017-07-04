@@ -1,0 +1,27 @@
+.conversion_tabs_title{display: -moz-box;display: -webkit-box;display: box;width: 100%;height: .415rem;border-bottom: .01rem solid #cccccc;box-sizing: border-box;}
+.conversion_tabs_title>div{-moz-box-flex: 1; -webkit-box-flex: 1; box-flex: 1;}
+.conversion_tabs_title>div>p{width: .75rem;height: .415rem;line-height: .415rem; margin: 0 auto;text-align: center;font-size: .15rem;}
+
+/*内容兑换框样式*/
+.conversion_cons{margin: .21rem .155rem 0;}
+.box_cons_top{width: 100%;} 
+.box_cons_top_title{height: .385rem;padding: 0 .18rem;background-color: #42c2d9;border-radius: .05rem .05rem 0 0;}
+.box_cons_top_title>li{line-height: .385rem;font-size: .15rem;color: #fff;}
+.box_cons_top_onversion{padding: 0 .18rem;background-color: #fff;}
+.box_cons_top_onversion>p{font-size: .12rem;padding: .1rem 0 .175rem;}
+.box_cons_top_onversion>div{border-bottom: .01rem solid #eaeaea;box-sizing: border-box;}
+.box_cons_top_onversion>div>label{font-size: .24rem;width: 50%;height: .38rem;line-height: .38rem;vertical-align: sub;}
+.box_cons_top_onversion>div>input{border:none;width: 85%;outline:none;font-size: .2rem;font-weight: bold; padding: .05rem;}
+
+.box_cons_top_balance{background-color: #fff;padding: 0 .18rem;padding-top: .15rem;padding-bottom: .1rem;border-radius: 0 0 .05rem .05rem;}
+.box_cons_top_balance>p{font-size: .12rem;color: #999999;}
+
+.box_cons_bottom{padding: .15rem .18rem 0;}
+.box_cons_bottom>li{font-size: .12rem;color: #2aa8f0;line-height: .2rem;}
+
+.conversion_button{text-align: center;margin: .5rem .2rem 0;}
+.conversion_button>button{width: 100%;height: .44rem;border-radius: .05rem;color: #fff;background-color: #fd8f1c;font-size: .12rem;}
+/*选中后效果*/
+.active{border-bottom: .02rem solid #fd8f1c;color: #fd8f1c;box-sizing: border-box;}
+.show{display: block;}
+.hide{display: none;}

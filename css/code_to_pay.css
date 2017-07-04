@@ -1,0 +1,15 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.code_to_pay{width: 2.89rem;height: 3.78rem;background-color: #fff;position: absolute;top: 0;left: 0;right: 0; bottom: 0; margin: auto;border-radius: .05rem;text-align: center;}
+.code_to_pay>p:nth-child(1){font-size: .16rem;color: #333333;margin: .165rem 0;}
+.code_to_pay>p:nth-child(2),.code_to_pay>p:nth-child(4),.code_to_pay>p:nth-child(5){
+	font-size: .13rem;
+	color: #666666;
+}
+.code_to_pay>p:nth-child(2){margin-bottom: .164rem;}
+.code_to_pay>p:nth-child(4){margin-top: .25rem;}
+.code_to_pay>p:nth-child(7){font-size: .12rem;color: #999999;}
+.code_to_pay>i{display: block;width: 1.5rem;height: 1.495rem;margin: 0 auto;}
+.code_to_pay>button{width: 1.86rem;height: .32rem;background-color: #42c2d9;color: #fff;border-radius: .05rem;margin: .07rem 0 .12rem;}

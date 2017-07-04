@@ -1,0 +1,104 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telephone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 适应移动端end -->
+    <title>刮刮卡</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/guirospage.css">
+    <link rel="stylesheet" type="text/css" href="../css/lucky-card.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <script type="text/javascript" src="../js/jquery-1.6.js"></script>
+    <script type="text/javascript" src="../js/mobile-rem.js"></script>
+    <script type="text/javascript" src="../js/lucky-card.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 刮刮区域 -->
+		<div class="box box_1">
+			<div class="box_chlid">
+				<div id="scratch">
+					<p id="card">1个亿</p>
+				</div> 
+			</div>
+		</div>
+		<!-- 实时获奖信息 -->
+		<div class="box box_2">
+			<p>恭喜小红刮中了500元宝大奖</p>
+			<p>恭喜小明刮中了50000元宝大奖</p>
+		</div>
+		<div class="bannerTiao"></div>
+		<!-- 活动要求 -->
+		<div class="box box_3">
+			<p>活动要求</p>
+			<p>1、活动时间&nbsp;:&nbsp;2017-04-14&nbsp;至&nbsp;2017-04-30&nbsp;23:59;</p>
+			<p>2、活动发起方『角虫网络』拥有最终解释权;</p>
+			<p>3、如发现作弊行为，将取消涉及账号的中奖权限。</p>
+			<p>4、中奖积分请到&nbsp;<span>会员主页</span>&nbsp;查看</p>
+		</div>
+	</div>
+
+	<!--  返回  -->
+	<div class="back">
+		<a href="happygua.html">返回</a>
+	</div>
+	<!-- 弹框 -->
+	<div class="tankuang hide">
+		<div class="box tankuang_title">恭喜您获得了</div>
+		<div class="box money"><span>100</span>元!</div>
+		<div class="box hongbao">
+			<i class="hongbao_child1"></i>
+			<i class="hongbao_child2"></i>
+			<i class="hongbao_child3 animated flipInY"></i>
+			<i class="hongbao_child4 animated bounceInDown"></i>
+			<i class="hongbao_child5"></i>
+			<i class="hongbao_child6"></i>
+		</div>
+		<button class="box ok">确定</button>
+	</div>
+
+
+	<script>
+		// 不能跨域，否则函数会运行不了,如果要跨域可以将图片转换成Data Url
+		var img ="../img/gua_guaka_bg1.png" 
+	    LuckyCard.case({
+	    	coverImg:img,
+	        ratio: .7
+	    }, function() {
+	        $('.tankuang').removeClass('hide').addClass('show');
+	        $('.money>span').text($('#card').text());
+	        this.clearCover();
+	    });
+
+	    $('.ok').click(function(event) {
+	    	$('.tankuang').removeClass('show').addClass('hide');
+	    });
+    </script>
+</body>
+</html>

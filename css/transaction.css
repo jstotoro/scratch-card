@@ -1,0 +1,30 @@
+.transaction_tabs_title{display: -moz-box;display: -webkit-box;display: box;width: 100%;height: .415rem;border-bottom: .01rem solid #cccccc;box-sizing: border-box;}
+.transaction_tabs_title>div{-moz-box-flex: 1; -webkit-box-flex: 1; box-flex: 1;}
+.transaction_tabs_title>div>p{width: .75rem;height: .415rem;line-height: .415rem; margin: 0 auto;text-align: center;font-size: .15rem;}
+
+/*选中后效果*/
+.active{border-bottom: .02rem solid #fd8f1c;color: #fd8f1c;box-sizing: border-box;}
+.show{display: block;}
+.hide{display: none;}
+
+/*游戏明细*/
+.transaction_cons_box{margin: .21rem .15rem 0;}
+.transaction_cons_box_mian{background-color: #fff;height: 100%;border-radius: .05rem;margin-bottom: .1rem;}
+.transaction_cons_box_mian>li:nth-child(1){font-size: .15rem;padding:.145rem .12rem .08rem; }
+.transaction_cons_box_mian>li{font-size: .13rem;padding: .06rem .12rem;}
+.transaction_cons_box_mian>li>span{display: inline-block;}
+.transaction_cons_box_mian>li>span:nth-child(1){
+	width: 40%;
+	color: #333333;
+}
+.transaction_cons_box_mian>li>span:nth-child(2){
+	width: 58%;
+	color: #999999;
+	text-align: right;
+}
+
+/*资金明细*/
+.transaction_cons_box_mian>.cons_pay>p{font-size: .18rem;color: #333333;}
+.transaction_cons_box_mian>.cons_pay>p:nth-child(1){margin-bottom: .1rem;}
+.overMian{padding: .15rem .12rem;}
+.transaction_cons_box_mian>.date{font-size: .12rem;color: #999;}

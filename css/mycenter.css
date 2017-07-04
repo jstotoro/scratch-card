@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.box{color: #000;font-size: .12rem;}
+.box_top{width: 100%;height: 2.075rem;background: url(../img/gua_mycenter_bg.png)no-repeat center;background-size: 100% auto;position: relative;}
+.box_top>div{color: #fff;}
+.box_top>div:nth-child(odd){width: 40%;}
+.box_top>div:nth-child(even){width: 20%;}
+.box_top>.myID>p:nth-child(1){font-size: .15rem;text-align: center;}
+.box_top>.myID>p:nth-child(2){text-align: center;}
+.box_top>.shouyi>p:nth-child(1){font-size: .15rem;text-align: center;}
+.box_top>.shouyi>p:nth-child(2){text-align: center;}
+.myAvatar{width: .66rem;height: .66rem;border-radius: 50%;background-color: #fff;margin: 0 auto;overflow: hidden;margin-top: .75rem;}
+.myID,.shouyi{margin-top: 1.09rem;}
+
+/*定位按钮样式*/
+.box_position_btn{width: 1.16rem;height: .29rem;background-color: #ff8429;border-radius: 1rem;position: absolute;left: 0; right: 0;top: 1.91rem;margin: auto;}
+.box_position_btn>div{width: 50%;line-height: .29rem;text-align: center;color: #fff;}
+.box_position_btn>div:nth-child(1){border-right: .01rem solid #ffa96a;box-sizing: border-box;}
+.box_position_btn>div>a{display: inline-block;width: 100%;height: 100%;color: #fff;}
+
+/*显示内容样式*/
+.box_content{margin-top: .5rem;}
+.box_content>div{display: -moz-box;display: -webkit-box;display: box;}
+.box_content>div>a{-moz-box-flex: 1; -webkit-box-flex: 1;box-flex: 1;text-align: center;margin-bottom: .375rem;display: block;color: #000;}
+.box_content>div>a>b{font-size: .18rem;margin-bottom: .05rem;display: inline-block;font-weight: normal;}
+.box_content>div>a>i{display: inline-block;width: .3rem;height: .3rem;margin-bottom: .1rem;}
+
+/*联系客服*/
+.forme{width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: rgba(0,0,0,0.3);z-index: 999;}
+.forme_child{width: 2.63rem;height: 3rem;background-color: #fff;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin:auto;border-radius: .05rem;text-align: center;}
+.forme_child>h3{font-size: .18rem;font-weight: normal;}
+.forme_child>i{display: block;width: 1.47rem;height: 1.47rem;margin: 0 auto;}
+.forme_child>span{color: #666666;}
+.forme_child>h3:nth-child(1){margin: .225rem 0 .25rem;}
+.forme_child>h3:nth-child(3){margin: .15rem 0 .05rem;}
+
+.hide{display: none;}
+.show{display: block;}

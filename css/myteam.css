@@ -1,0 +1,26 @@
+.box{margin: 0 .12rem;}
+.myteam_top_title{color: #666666;font-size: .13rem;margin-top: .22rem ;position: relative;padding-left: .24rem;padding-bottom: .075rem;}
+.myteam_top_title>i{width: .13rem;height: .12rem;display: inline-block;position: absolute; top: .03rem;left: 0;}
+.myteam_top_table_child{padding: .175rem 0 .075rem 0;background-color: #fff;}
+.myteam_top_table_child>div{
+    width: 32.6%;
+    background-color: #fff;
+    float: left;
+}
+.myteam_top_table_child>div>p{text-align: center;font-size: .13rem;color: #666666;padding-bottom: .13rem;}
+.myteam_top_table_child>div>span{text-align: center;display: block;font-size: .18rem;color: #ffa81f;}
+.child1>div:nth-child(2){border-left: .01rem solid #cccccc;border-right: .01rem solid #cccccc;}
+.child2>div:nth-child(1){border-right: .01rem solid #cccccc;}
+
+.myteam_bottom_title{color: #666666;font-size: .13rem;margin-top: .325rem ;position: relative;padding-left: .24rem;padding-bottom: .075rem;}
+.myteam_bottom_title>i{width: .13rem;height: .12rem;display: inline-block;position: absolute; top: .03rem;left: 0;}
+.myteam_bottom_table_child{padding: .095rem 0;background-color: #fff;}
+.myteam_bottom_table_child>div{
+    width: 42.4%;
+    background-color: #fff;
+    float: left;
+    margin-left: .225rem;
+}
+.myteam_bottom_table_child>div:nth-child(1){border-right: .01rem solid #cccccc;box-sizing: border-box;}
+.myteam_bottom_table_child>div>p{font-size: .13rem;color: #666666;margin: .075rem 0 .11rem;}
+.myteam_bottom_table_child>div>span{font-size: .18rem;color: #ffa81f;}

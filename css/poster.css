@@ -1,0 +1,17 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url(../img/gua_haibao.png)no-repeat;
+    background-size: 100% 100%;
+}
+.box{color: #333333;font-size: .18rem;text-align: center;}
+.poster_top{font-style: italic;padding-top: .8rem;}
+.poster_top>p>span{font-size: .3rem;color: #ff5252;}
+.poster_top>p:nth-child(3){font-size: .24rem;}
+
+.poster_middle{margin: .43rem 0 .33rem;}
+.poster_middle>i{display: block;width: .87rem;height: .875rem;margin: 0 auto;}
+
+.poster_bottom{font-size: .12rem;color: #471e22;margin: 0 .615rem;border: .01rem solid #471e22;position: relative;}
+.poster_bottom>div:nth-child(1){font-size: .18rem;position: absolute;top: -0.13rem;left: 0;right: 0; margin: 0 auto;background-color: #ffc13c;width: 1rem;}
+.poster_bottom>div:nth-child(2){padding: .175rem 0 .12rem;}

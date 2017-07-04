@@ -1,0 +1,306 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url(../img/gua_bg.png)no-repeat;
+    background-size: 100% 100%;
+}
+/*返回样式*/
+.back{position: fixed;bottom: 0;width: 100%; height: .49rem;line-height: .49rem;background-color: #a41718;text-align: center;}
+.back>a{display: inline-block; font-size: .15rem;color: #ffb21c; width: 100%;height: 100%;}
+
+/*wrap里面元素的样式*/ 
+.box{color: #fff;font-size: .12rem;}
+.box_1{padding-top: 1.775rem;}
+.box_2{height: .485rem;width: 2.22rem;background-color: #ffb21c;margin: auto;border-radius: 0 0 .05rem .05rem;position: absolute;left: 0;right: 0;top: 3.095rem;z-index: 3;}
+.box_2 p{text-align: center;height:.2425rem;line-height: .2425rem;color: #333333; }
+.box_3{margin: .9rem .2rem 0;}
+.box_3>p:nth-child(1){color: #333333;font-size: .15rem;background: url(../img/gua_yaoqiu_bg.png)no-repeat;width: 1.03rem;height: .23rem;background-size: 1.03rem .23rem;line-height: .23rem;text-indent: .5em;margin-bottom: .13rem;padding-bottom: 0;}
+.box_3>p{padding-bottom: .05rem;}
+.bannerTiao{width: 2.565rem;height: .175rem;background: #921a1a;border-radius: 2rem;position: absolute;left: 0;right: 0;top: 3.015rem;margin: auto;z-index: 0;}
+
+/*临时样式*/
+.box_chlid{
+	width: 2.2rem;
+	height: 1.135rem;
+	margin: 0 auto;
+	background: url(../img/gua_guaka_bg.png)no-repeat center;
+	background-size: 2.2rem 1.135rem
+}
+#scratch{
+	width: 2.035rem;
+	height: .955rem;
+	margin: 0 auto;
+}
+#card{
+	height: 100%;
+    font-weight: bold;
+    font-size: .12rem;
+   	line-height: 1.055rem;
+    text-align: center;
+    color: #000;
+}
+
+/*弹框样式*/
+.tankuang{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 999;
+	text-align: center;
+}
+.tankuang_title{font-size: .18rem;text-align: center;margin: 1.075rem 0 .05rem 0;}
+.money{font-size: .4rem;text-align: center;color: #fef722;margin-bottom: .1rem;}
+.ok{width: 1.595rem;height: .32rem;background-color: #fef722;font-size: .15rem;text-align: center;line-height: .32rem;color: #000000;border-radius: .02rem;margin-top: .19rem;}
+.show{display: block;}
+.hide{display: none;}
+
+.hongbao{width: 1.67rem;height: .81rem;/*background: url(../img/gua_hongbao.png)no-repeat center;background-size: 100% 100%;*/margin: auto;position: relative;}
+.hongbao>i{display: block;position: absolute;}
+.hongbao_child1{width: .425rem;height: .11rem;top: .48rem;left: 0px;background: url(../img/gua_left1.png)no-repeat;background-size: 100% 100%;animation:myAnimeOne 1s linear infinite alternate;-moz-animation:myAnimeOne 1s linear infinite alternate;-webkit-animation:myAnimeOne 1s linear infinite alternate;}
+	@keyframes myAnimeOne{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+	@-moz-keyframes myAnimeOne{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+	@-webkit-keyframes myAnimeOne{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+.hongbao_child2{width: .27rem;height: .05rem;top: .68rem;left: .15rem;background: url(../img/gua_left2.png)no-repeat;background-size: 100% 100%;animation:myAnimeTwo 1s linear infinite alternate;-moz-animation:myAnimeTwo 1s linear infinite alternate;-webkit-animation:myAnimeTwo 1s linear infinite alternate;}
+	@keyframes myAnimeTwo{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+	@-moz-keyframes myAnimeTwo{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+	@-webkit-keyframes myAnimeTwo{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+.hongbao_child5{width: .4rem;height: .155rem;top: .3rem;right: 0;background: url(../img/gua_right1.png)no-repeat;background-size: 100% 100%;animation:myAnimeFive 1s linear infinite alternate;-moz-animation:myAnimeFive 1s linear infinite alternate;-webkit-animation:myAnimeFive 1s linear infinite alternate;}
+	@keyframes myAnimeFive{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+	@-moz-keyframes myAnimeFive{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+	@-webkit-keyframes myAnimeFive{
+		0%{transform:scale(0.8)
+			-ms-transform:scale(0.8)
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		50%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		100%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+	}
+.hongbao_child6{width: .26rem;height: .065rem;top: .5rem;right: 0px;background: url(../img/gua_right2.png)no-repeat;background-size: 100% 100%;animation:myAnimeSix 1s linear infinite alternate;-moz-animation:myAnimeSix 1s linear infinite alternate;-webkit-animation:myAnimeSix 1s linear infinite alternate;}
+	@keyframes myAnimeSix{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+	@-moz-keyframes myAnimeSix{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+	@-webkit-keyframes myAnimeSix{
+		0%{transform:scale(1,1)
+			-ms-transform:scale(1,1)
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+		50%{
+			transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-webkit-transform:scale(0.8);
+		}
+		100%{
+			transform:scale(1,1);
+			-ms-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-webkit-transform:scale(1,1);
+		}
+	}
+.hongbao_child3{
+	width: .91rem;
+	height: .81rem;
+	top: .0;
+	left: .4rem;
+	background: url(../img/gua_center1.png)no-repeat;
+	background-size: 100% 100%;
+	animation:myAnimeThree 5s linear infinite alternate;
+	-moz-animation:myAnimeThree 5s linear 2s infinite alternate;
+	-webkit-animation:myAnimeThree 5s linear infinite alternate;
+}
+.hongbao_child4{width: .86rem;height: .44rem;top: .35rem;left: .47rem;background: url(../img/gua_center2.png)no-repeat;background-size: 100% 100%;animation:myAnimeFour 1s linear alternate;-moz-animation:myAnimeFour 1s linear 2s alternate;-webkit-animation:myAnimeFour 1s linear alternate;}
+

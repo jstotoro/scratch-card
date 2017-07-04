@@ -1,0 +1,53 @@
+.commission_tabs_title{display: -moz-box;display: -webkit-box;display: box;width: 100%;height: .415rem;border-bottom: .01rem solid #cccccc;box-sizing: border-box;}
+.commission_tabs_title>div{-moz-box-flex: 1; -webkit-box-flex: 1; box-flex: 1;}
+.commission_tabs_title>div>p{width: .75rem;height: .415rem;line-height: .415rem; margin: 0 auto;text-align: center;font-size: .15rem;}
+/*选中后效果*/
+.active{border-bottom: .02rem solid #fd8f1c;color: #fd8f1c;box-sizing: border-box;}
+.show{display: block;}
+.hide{display: none;}
+
+/*佣金规则*/
+.box_mian_top{margin: .25rem .12rem .075rem;font-size: .12rem;color: #666666;}
+.box_mian_top_title{margin: 0 .12rem;border: .01rem solid #a0a0a0;border-radius: .05rem;}
+/*.box_mian_top_title_page>li{float: left;display: table;font-size: .12rem;}
+.box_mian_top_title_cishu>li{float: left;}
+.box_mian_top_title_page>li>p{height: .41rem;width: .485rem;text-align: center;background-color: #ffcc00;display: table-cell;vertical-align: middle;border-top: .01rem solid #a0a0a0;border-left: .01rem solid #ffe066;box-sizing: border-box;}
+.box_mian_top_title_cishu>li>p{height: .335rem;line-height: .335rem; width: .49rem;text-align: center;border-bottom: .01rem solid #a0a0a0;border-left: .01rem solid #e5e5e5;box-sizing: border-box;} 
+.box_mian_top_title_page>li:nth-child(1),.box_mian_top_title_cishu>li:nth-child(1){border-left: .01rem solid #a0a0a0;}
+.box_mian_top_title_page>li:nth-child(6),.box_mian_top_title_cishu>li:nth-child(6){border-right: .01rem solid #a0a0a0;}*/
+
+/*佣金说明*/
+.box_mian_middle{margin: 0 .525rem;padding: .25rem 0 .38rem;}
+.box_mian_middle>p{text-align: center;font-size: .12rem;color: #666666;}
+.box_mian_middle>p:nth-child(1){padding-bottom: .175rem;}
+.box_mian_middle>p:nth-child(2){font-size: .15rem;color: #333333;padding-bottom: .1rem;}
+.box_mian_middle>p:nth-child(3){padding-bottom: .09rem;}
+
+/*每月能得到的佣金*/
+.box_mian_bottom{font-size: .12rem;color: #666666;}
+.box_mian_bottom>p{padding: 0 .125rem .075rem;color: #666666;}
+.box_mian_bottom>div{height: .43rem;line-height: .43rem;background-color: #ffffff;border-top: .01rem solid #cccccc;padding: 0 .125rem;font-size: .14rem;}
+.box_mian_bottom>div:nth-child(3){border-bottom: .01rem solid #cccccc;}
+
+
+/*佣金明细*/
+.mianAuto{margin: .1rem .15rem 0;background-color: #fff;border-radius: .05rem;}
+.mianAuto>div:nth-child(1){padding-left: .11rem;}
+.mianAuto>div>p:nth-child(1){font-size: .18rem;color: #333333;padding: .145rem 0 .1rem;}
+.mianAuto>div>p:nth-child(2),.mianAuto>div>p:nth-child(3){font-size: .12rem;color: #999999;}
+.mianAuto>div>p:nth-child(3){padding-bottom: .15rem;}
+.mianAuto>div:nth-child(2){font-size: .28rem;color: #333333;padding: .3rem .13rem .3rem 0;}
+
+
+/*佣金规则*/
+.box_mian_top_title{overflow: hidden;}
+.box_mian_top_title_page>div{height: .41rem;background-color: #ffcc00;font-size: .12rem;}
+.page_child~div{border-left: .01rem solid #ffe066;box-sizing: border-box;}
+.page_child~div>li{display: table;width: 100%;height: 100%;}
+.page_child~div>li>p{display: table-cell;vertical-align: middle;text-align: center;}
+.box_mian_top_title_page>div:nth-child(1)>p{line-height: .41rem;height: .41rem;background-color: #ffcc00;}
+.box_mian_top_title>div>div{float: left;display: -moz-box;display: -webkit-box;display: box;width: 16.666667%;}
+.box_mian_top_title>div>div>p{-moz-box-flex: 1;-webkit-box-flex: 1; box-flex: 1;text-align: center;}
+.box_mian_top_title_cishu{background-color: #fff;}
+.box_mian_top_title_cishu>div{padding: .105rem 0;font-size: .12rem;}
+.cishu_child~div{border-left: .01rem solid #e5e5e5;box-sizing: border-box;}
